@@ -8,7 +8,7 @@ from llama_index.core.llms import ChatMessage, ImageBlock, MessageRole, TextBloc
 import re
 
 # Set up Google API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD2vhjasXk8fOjJD7dXsQSuzTR-5vs6JKs"
+os.environ["GOOGLE_API_KEY"] = ""
 
 # Initialize the Gemini model
 gemini_pro = Gemini(model_name="models/gemini-1.5-flash")
