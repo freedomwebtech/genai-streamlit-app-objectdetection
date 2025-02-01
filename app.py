@@ -14,7 +14,7 @@ os.environ["GOOGLE_API_KEY"] = ""
 gemini_pro = Gemini(model_name="models/gemini-1.5-flash")
 
 # Streamlit UI
-st.title("🔍 Real-time Object Detection with Gemini")
+st.title("Real-time Object Detection with Gemini")
 st.sidebar.write("Click 'Capture' to analyze an image.")
 
 # Webcam capture
